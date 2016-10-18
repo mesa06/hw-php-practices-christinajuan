@@ -3,12 +3,10 @@
 請問它第五次落地後，會反彈到多高?-->
 <?php
 
- 
-        $hight = 100;
+       $hight = 100;
        for($i=0;$i<5;$i++){
         $hight = $hight*0.5;
        }
         echo $hight;
-    
     
 ?>
